@@ -1,40 +1,72 @@
 <!DOCTYPE html>
 <head>
     <title>John</title>
-   
+   <link rel="stylesheet" href="/john.css">
 </head>
 <body>
-    <a href="../index.html">Home</a>  |
-    <a href="../facilitator.html">Facilitators</a> |
-    <a href="../students.html">Students</a> 
+    <!-- My links -->
+    <a href="../index.html">Home</a>  <span>|</span>
+    <a href="../facilitator.html">Facilitators</a> <span>|</span>
+    <a href="../students.html">Students</a>
+    <a href="mailto:kayanjajohn27@gmail.com">Email</a>
+    
+    <!-- My information -->
+    <div class="john-info">
+        <h1 class="page">Welcome to my page</h1>
+        
+        <img src="/students/images/Happy face.jpg" width="200px" alt="Happy face">
+        <table border="4px solid black">
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+                <td>8/26/2022</td>
+                <td>Kayanja John</td>
+                <td>0789585624</td>
+            </tr>
+            <tr>
+                <td>8/26/2022</td>
+                <td>Kintu Davis</td>
+                <td>0708930915</td>
+            </tr>
+            <tr>
+                <td>8/26/2022</td>
+                <td>Josephat Kayanja</td>
+                <td>0701234567</td>
+            </tr>
+        </table>
+    </div>
 
-    <img src="/students/images/Happy face.jpg" width="100px" alt="Happy face">
+      <form action="/students.html">
 
-    <h1>Welcome to my page</h1>
-    <table border="4px solid black">
-        <tr>
-            <th>Date</th>
-            <th>Name</th>
-            <th>Contact</th>
-        </tr>
+        <label for="user">Username</label>
+        <input type="text" name="user" id="user" required placeholder="Enter Name">
 
-        <tr>
-            <td>8/26/2022</td>
-            <td>Kayanja John</td>
-            <td>0789585624</td>
-        </tr>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required placeholder="Insert Email">
 
-        <tr>
-            <td>8/26/2022</td>
-            <td>Kintu Davis</td>
-            <td>0708930915</td>
-        </tr>
+        <label>Age</label>
+        <input min="15" max="90" type="number" name="age" required placeholder="Your age">
 
-        <tr>
-            <td>8/26/2022</td>
-            <td>Josephat Kayanja</td>
-            <td>0701234567</td>
-        </tr>
-    </table>
+        <label for="security">Password</label>
+        <input type="password" name="password" id="security" required placeholder="Insert password" >
+
+        <select name="products" id="dropdown">
+            <option value=""></option>
+            <option value="Macbook 2018">Macbook</option>
+            <option value="Windows 10">Windows</option>
+            <option value="Iphone12">Iphone</option>
+            <option value="Samsung A50">Android</option>
+        </select>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your description here"></textarea>
+        
+        <button type="submit">Submit</button>
+
+
+      </form>
+
 </body>
 </html>

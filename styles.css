@@ -1,0 +1,50 @@
+h1,h2,h3{
+    color: red;
+}
+a{
+  text-decoration: none;
+  color: rgb(187, 129, 241);
+}
+/* STYLING INDEX.HTML */
+  #index-html{
+    background:linear-gradient(rgb(13, 13, 13,0.8),rgb(0,0,0)) ,url(/students/images/wallpaperflare.com_wallpaper\ \(6\).jpg) ;
+    background-size:contain;
+    color: beige;
+  }
+
+
+/* STYLING STUDENTS.HTML */
+#students-html{
+    background:linear-gradient(to top,rgb(254, 1, 1,0.4),rgb(255, 255, 0,0.4),rgb(0, 0, 255,0.4)) ,url(/students/images/wallpaperflare.com_wallpaper.jpg);
+   background-size:contain;
+}
+fieldset ,strong{
+    background-color: rgb(128, 128, 128,0.5);
+    border: ridge 4px rgb(31, 220, 14,0.6);
+    border-radius: 10px;
+    color: rgb(192, 241, 252);
+}
+figcaption span {
+    margin-right: 12px;
+}
+figcaption span:hover{
+    color: goldenrod;
+    transition: 180ms;
+}
+figcaption span:active{
+    color: greenyellow;
+    transition: 180ms;
+}
+figcaption strong{
+    color: rgb(176, 158, 158);
+    background: linear-gradient(90deg,rgb(47, 47, 226),rgb(42, 109, 11),rgb(184, 123, 10),rgb(87, 12, 12));
+}
+
+figcaption strong:hover{
+    color: rgb(9, 150, 146);
+    transition: 180ms;
+}
+figcaption strong:active{
+    color: rgb(197, 27, 8);
+    transition: 180ms;
+}
